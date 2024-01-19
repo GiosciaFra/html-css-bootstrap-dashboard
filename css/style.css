@@ -1,0 +1,15 @@
+.my_sidebar {
+    width: 70px;
+
+    height: calc(100vh - 72px);
+
+    background-color: #051E34;
+    background-image: url('../img/sidebar-bg.png');
+    
+}
+
+.my_main_size {
+    width: calc(100% - 68px);
+    height: calc(100% - 72px);
+}
+
