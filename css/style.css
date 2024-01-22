@@ -27,7 +27,7 @@
     height: 30px;
 }
 
-label {
+tbody tr td label {
     font-size: 11px;
     padding: 0px 7px 3px 7px ;
 }
