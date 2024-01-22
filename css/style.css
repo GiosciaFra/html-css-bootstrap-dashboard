@@ -1,7 +1,7 @@
 .my_sidebar {
     width: 70px;
 
-    height: calc(100vh - 72px);
+    height: calc(100vh - 66px);
 
     background-color: #051E34;
     background-image: url('../img/sidebar-bg.png');
@@ -10,7 +10,7 @@
 
 .my_main_size {
     width: calc(100% - 70px);
-    height: calc(100vh - 72px);
+    height: calc(100vh - 66px);
 }
 
 .fa-magnifying-glass {
