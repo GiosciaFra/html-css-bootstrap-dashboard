@@ -17,8 +17,12 @@
 }
 
 .my_main_size {
-    width: calc(100% - 68px);
-    height: calc(100% - 72px);
+    width: calc(100% - 70px);
+    height: calc(100vh - 72px);
+}
+
+.fa-magnifying-glass {
+    height: 40px;
 }
 
 
