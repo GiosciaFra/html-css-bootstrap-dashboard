@@ -17,21 +17,41 @@
     height: 40px;
 }
 
+.my_sidebar .fa-solid {
+    width: 20px;
+}
 
+.fa-code {
+    background-color: #f26551;
+    width: 30px;
+    height: 30px;
+}
 
+label {
+    font-size: 11px;
+    padding: 0px 7px 3px 7px ;
+}
+
+td {
+    font-weight: 400;
+}
+
+td .fa-solid {
+    width: 30px;
+    height: 30px;
+}
 
 /* media query */
 @media screen and (min-width: 992px) {
     .my_sidebar {
         width: 150px;
+        height: calc(100vh - 72px);
 
     }
 
     .my_main_size {
         width: calc(100% - 150px);
+        height: calc(100vh - 72px);
     }
-
-
-
 
 }

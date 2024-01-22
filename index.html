@@ -25,18 +25,19 @@
 
     <!--navbar  -->
     <nav class="navbar navbar-expand">
-        <div class="container-fluid py-lg-2 ">
+        <div class="container-fluid  py-lg-2 ">
             <img src="./img/logo.svg" class="d-none d-lg-block pe-lg-2" alt="Logo-desktop" height="29">
             <img src="./img/mobile-logo.png" class="d-block d-lg-none " alt="logo-mobile" height="50">
 
             <div class="collapse navbar-collapse ps-4 ps-lg-3 " id="navbarSupportedContent">
 
-                <i class="fa-solid fa-magnifying-glass bg-secondary bg-opacity-10 px-2 py-2 d-flex align-items-center rounded-start-2"></i>
+                <i
+                    class="fa-solid fa-magnifying-glass bg-secondary bg-opacity-10 px-2 py-2 d-flex align-items-center rounded-start-2"></i>
                 <form class="d-flex flex-grow-1 " role="search">
-                    
-                    <input class="form-control me-2  ms- bg-secondary  bg-opacity-10  border-0 rounded-start-0 py-2 " type="search"
-                        placeholder= "Prova a cercare: Lezioni di Laravel" aria-label="Search">
-                        
+
+                    <input class="form-control bg-secondary bg-opacity-10  border-0 rounded-start-0 py-2 " type="search"
+                        placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
+
                 </form>
 
                 <ul class="navbar-nav me-auto mb-lg-0">
@@ -68,7 +69,7 @@
     <div class="container-fluid p-0 d-flex">
 
         <!-- sidebar -->
-        
+
         <aside class="my_sidebar overflow-hidden d-flex flex-column justify-content-between text-white px-3 py-4">
 
             <div class="aside_top d-flex flex-column">
@@ -84,14 +85,14 @@
 
                     <i class="fa-solid fa-chart-simple"></i>
                     <span class="d-none d-lg-flex">Stats</span>
-                    
+
                 </div>
 
                 <div class="d-flex align-items-center p-2 gap-3">
 
                     <i class="fa-solid fa-signal"></i>
                     <span class="d-none d-lg-flex">Signals</span>
-                    
+
                 </div>
 
             </div>
@@ -101,7 +102,7 @@
 
                     <i class="fa-solid fa-gear"></i>
                     <span class="d-none d-lg-flex">Admin</span>
-                    
+
                 </div>
             </div>
 
@@ -109,18 +110,295 @@
 
         <!-- end sidebar -->
         <main class="my_main_size overflow-y-auto overflow-x-hidden ">
-            
+
 
 
             <header class="bg-primary py-5">
-                
+
 
             </header>
 
+            <div class="row">
+                <div class="col-12 col-lg-8 pt-3">
+                    <!-- sezione prossime classi -->
+                    <div class="card mx-2 my-2 ">
+                        <div class="card-header fs-4 fw-medium ">Prossime classi</div>
+                        <div class="card-body">
+                            <table class="table align-middle ">
+                                <thead>
+                                    <tr>
+                                        <th class="col-8 fw-normal">Nome</th>
+                                        <th class="col d-none d-md-table-cell text-center text-nowrap fw-normal "> Data
+                                            inizio</th>
+                                        <th class="d-none d-md-table-cell text-center fw-normal">ROI</th>
+                                        <th class="text-center fw-normal">Stato</th>
+                                        <th class="text-center fw-normal">Azioni</th>
 
-          
+                                    </tr>
+                                </thead>
 
-          
+                                <tbody>
+                                    <tr>
+                                        <td class="gap-3 d-flex  align-items-center">
+                                            <i
+                                                class="fa-solid fa-code text-white rounded-5 d-flex justify-content-center align-items-center  "></i>
+                                            Classe 75
+                                        </td>
+
+                                        <td class="text-center d-none d-md-table-cell text-nowrap">
+                                            15 Feb 2021
+                                        </td>
+
+                                        <td class="text-center d-none d-md-table-cell">
+                                            20%
+                                        </td>
+
+                                        <td class="text-center text-white">
+                                            <label class="bg-success fw-medium rounded-2 ">
+                                                Done
+                                            </label>
+
+                                        </td>
+
+                                        <td class="d-flex justify-content-center gap-2">
+
+                                            <i class="fa-solid fa-pencil d-flex align-items-center justify-content-center text-secondary border rounded-1  border-secondary"></i>
+
+                                            <i class="fa-solid fa-trash d-flex align-items-center justify-content-center text-secondary border rounded-1 border-secondary"></i>
+
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="gap-3 d-flex  align-items-center">
+                                            <i
+                                                class="fa-solid fa-code text-white rounded-5 d-flex justify-content-center align-items-center  "></i>
+                                            Classe 76
+                                        </td>
+
+                                        <td class="text-center d-none d-md-table-cell text-nowrap">
+                                            15 Feb 2021
+                                        </td>
+
+                                        <td class="text-center d-none d-md-table-cell">
+                                            20%
+                                        </td>
+
+                                        <td class="text-center text-white">
+                                            <label class="bg-success fw-medium rounded-2 ">
+                                                Done
+                                            </label>
+
+                                        </td>
+
+                                        <td class="d-flex justify-content-center gap-2">
+
+                                            <i class="fa-solid fa-pencil d-flex align-items-center justify-content-center text-secondary border rounded-1  border-secondary"></i>
+
+                                            <i class="fa-solid fa-trash d-flex align-items-center justify-content-center text-secondary border rounded-1 border-secondary"></i>
+
+                                        </td>
+                                    </tr>
+
+                                    
+                                    <tr>
+                                        <td class="gap-3 d-flex  align-items-center">
+                                            <i
+                                            class="fa-solid fa-code text-white rounded-5 d-flex justify-content-center align-items-center  "></i>
+                                            Classe 77
+                                        </td>
+                                        
+                                        <td class="text-center d-none d-md-table-cell text-nowrap">
+                                            17 Feb 2021
+                                        </td>
+
+                                        <td class="text-center d-none d-md-table-cell">
+                                            20%
+                                        </td>
+
+                                        <td class="text-center text-white">
+                                            <label class="bg-warning fw-medium rounded-2 ">
+                                                process
+                                            </label>
+
+                                        </td>
+
+                                        <td class="d-flex justify-content-center gap-2">
+
+                                            <i class="fa-solid fa-pencil d-flex align-items-center justify-content-center text-secondary border rounded-1  border-secondary"></i>
+
+                                            <i class="fa-solid fa-trash d-flex align-items-center justify-content-center text-secondary border rounded-1 border-secondary"></i>
+
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="gap-3 d-flex  align-items-center">
+                                            <i
+                                                class="fa-solid fa-code text-white rounded-5 d-flex justify-content-center align-items-center  "></i>
+                                            Classe 78
+                                        </td>
+
+                                        <td class="text-center d-none d-md-table-cell text-nowrap">
+                                            18 Feb 2021
+                                        </td>
+                                        
+                                        <td class="text-center d-none d-md-table-cell">
+                                            20%
+                                        </td>
+                                        
+                                        <td class="text-center text-white">
+                                            <label class="bg-success fw-medium rounded-2 ">
+                                                Done
+                                            </label>
+                                            
+                                        </td>
+                                        
+                                        <td class="d-flex justify-content-center gap-2">
+
+                                            <i class="fa-solid fa-pencil d-flex align-items-center justify-content-center text-secondary border rounded-1  border-secondary"></i>
+
+                                            <i class="fa-solid fa-trash d-flex align-items-center justify-content-center text-secondary border rounded-1 border-secondary"></i>
+
+                                        </td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td class="gap-3 d-flex  align-items-center">
+                                            <i
+                                                class="fa-solid fa-code text-white rounded-5 d-flex justify-content-center align-items-center  "></i>
+                                            Classe 79
+                                        </td>
+
+                                        <td class="text-center d-none d-md-table-cell text-nowrap">
+                                            19 Feb 2021
+                                        </td>
+
+                                        <td class="text-center d-none d-md-table-cell">
+                                            20%
+                                        </td>
+
+                                        <td class="text-center text-white">
+                                            <label class="bg-danger fw-medium rounded-2 ">
+                                                failed
+                                            </label>
+
+                                        </td>
+
+                                        <td class="d-flex justify-content-center gap-2">
+
+                                            <i class="fa-solid fa-pencil d-flex align-items-center justify-content-center text-secondary border rounded-1  border-secondary"></i>
+
+                                            <i class="fa-solid fa-trash d-flex align-items-center justify-content-center text-secondary border rounded-1 border-secondary"></i>
+
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="gap-3 d-flex  align-items-center">
+                                            <i
+                                            class="fa-solid fa-code text-white rounded-5 d-flex justify-content-center align-items-center  "></i>
+                                            Classe 80
+                                        </td>
+                                        
+                                        <td class="text-center d-none d-md-table-cell text-nowrap">
+                                            20 Feb 2021
+                                        </td>
+                                        
+                                        <td class="text-center d-none d-md-table-cell">
+                                            20%
+                                        </td>
+                                        
+                                        <td class="text-center text-white">
+                                            <label class="bg-success fw-medium rounded-2 ">
+                                                Done
+                                            </label>
+
+                                        </td>
+
+                                        <td class="d-flex justify-content-center gap-2">
+
+                                            <i class="fa-solid fa-pencil d-flex align-items-center justify-content-center text-secondary border rounded-1  border-secondary"></i>
+
+                                            <i class="fa-solid fa-trash d-flex align-items-center justify-content-center text-secondary border rounded-1 border-secondary"></i>
+
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="gap-3 d-flex  align-items-center">
+                                            <i
+                                            class="fa-solid fa-code text-white rounded-5 d-flex justify-content-center align-items-center  "></i>
+                                            Classe 81
+                                        </td>
+
+                                        <td class="text-center d-none d-md-table-cell text-nowrap">
+                                            21 Feb 2021
+                                        </td>
+
+                                        <td class="text-center d-none d-md-table-cell">
+                                            20%
+                                        </td>
+                                        
+                                        <td class="text-center text-white">
+                                            <label class="bg-danger  fw-medium rounded-2 ">
+                                                failed
+                                            </label>
+                                            
+                                        </td>
+                                        
+                                        <td class="d-flex justify-content-center gap-2">
+                                            
+                                            <i class="fa-solid fa-pencil d-flex align-items-center justify-content-center text-secondary border rounded-1  border-secondary"></i>
+                                            
+                                            <i class="fa-solid fa-trash d-flex align-items-center justify-content-center text-secondary border rounded-1 border-secondary"></i>
+                                            
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="gap-3 d-flex  align-items-center">
+                                            <i class="fa-solid fa-code text-white rounded-5 d-flex justify-content-center align-items-center  "></i>
+                                            Classe 82
+                                        </td>
+    
+                                        <td class="text-center d-none d-md-table-cell text-nowrap">
+                                            22 Feb 2021
+                                        </td>
+    
+                                        <td class="text-center d-none d-md-table-cell">
+                                            20%
+                                        </td>
+    
+                                        <td class="text-center text-white">
+                                            <label class="bg-success fw-medium rounded-2 ">
+                                                Done
+                                            </label>
+    
+                                        </td>
+    
+                                        <td class="d-flex justify-content-center gap-2">
+    
+                                            <i class="fa-solid fa-pencil d-flex align-items-center justify-content-center text-secondary border rounded-1  border-secondary"></i>
+    
+                                            <i class="fa-solid fa-trash d-flex align-items-center justify-content-center text-secondary border rounded-1 border-secondary"></i>
+    
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- fine sezione prossime classi -->
+
+
+                </div>
+
+                <div class="col-12 col-lg-4"></div>
+
+            </div>
+
+
         </main>
 
 
