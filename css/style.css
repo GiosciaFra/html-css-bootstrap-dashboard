@@ -50,17 +50,26 @@ td .fa-solid {
     background-color: #165BBA;
 }
 
+#breadcrumbs-dividers ol.breadcrumb li+li:before {
+    color: white;
+}
+
+.fa-plus {
+    height: 40px;
+    width: 40px;
+}
+
 /* media query */
 @media screen and (min-width: 992px) {
     .my_sidebar {
-        width: 150px;
-        height: calc(100vh - 72px);
+        width: 150px;        
 
     }
 
     .my_main_size {
         width: calc(100% - 150px);
-        height: calc(100vh - 72px);
+        height: calc(100% - 72px);
+        
     }
 
 }
