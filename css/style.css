@@ -8,9 +8,10 @@
     
 }
 
-.my_main_size {
+.my_main {
     width: calc(100% - 70px);
     height: calc(100vh - 66px);
+    background-color: #f8f9fa;
 }
 
 .fa-magnifying-glass {
@@ -43,6 +44,10 @@ td .fa-solid {
 
 .my_font_size_ {
     font-size: 14px;
+}
+
+.my_bg {
+    background-color: #165BBA;
 }
 
 /* media query */
