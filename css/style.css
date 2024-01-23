@@ -59,17 +59,37 @@ td .fa-solid {
     width: 40px;
 }
 
+/* hover */
+nav .btn:active,
+nav .btn:focus {
+    border-color: transparent !important;
+}
+
+.fa-plus:hover {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+.my_side_item:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+}
+
+/* leva il contorno azzurro dalla searchbar */
+nav .form-control:focus {
+    box-shadow: 0 0 0 0 !important;
+}
+
 /* media query */
 @media screen and (min-width: 992px) {
     .my_sidebar {
         width: 150px;        
-
     }
 
     .my_main_size {
         width: calc(100% - 150px);
         height: calc(100% - 72px);
-        
     }
 
 }
