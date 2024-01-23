@@ -41,6 +41,10 @@ td .fa-solid {
     height: 30px;
 }
 
+.my_font_size_ {
+    font-size: 14px;
+}
+
 /* media query */
 @media screen and (min-width: 992px) {
     .my_sidebar {
